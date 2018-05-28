@@ -5,7 +5,7 @@
 #endif
 
 #import <AVFoundation/AVFoundation.h>
-#import <React/RCTEventEmitter.h>
+#import <RCTEventEmitter.h>
 
 @interface RNSound : RCTEventEmitter <RCTBridgeModule, AVAudioPlayerDelegate>
 @property (nonatomic, weak) NSNumber* _key;
